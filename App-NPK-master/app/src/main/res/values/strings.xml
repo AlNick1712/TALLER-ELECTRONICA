@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sensor NPK</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">NPK</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">About Us</string>
+
+    <string name="menu_home">Encender Sensor</string>
+    <string name="menu_gallery">Base de Datos</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="nav_header_subtitle">Sensor</string>
+</resources>
