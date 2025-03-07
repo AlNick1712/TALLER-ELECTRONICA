@@ -1,0 +1,764 @@
+[
+	{
+	  "nombre": "fresa",
+	  "nom_cientifico": "Fragaria x ananassa",
+	  "nom_comunes": ["Fresa", "frutilla", "Frutilla"],
+	  "ecocrop_code": 11112,
+	  "temp": {
+		"opt": {"min": 11, "max": 24},
+		"abs": {"min": 6, "max": 28}
+	  },
+	  "lluvia": {
+		"opt": {"min": 600, "max": 900},
+		"abs": {"min": 300, "max": 1700}
+	  },
+	  "latitud": null,
+	  "altitud": {
+		"abs": {"min": null, "max": 2000}
+	  },
+	  "pH": {
+		"opt": {"min": 6, "max": 6.8},
+		"abs": {"min": 4.5, "max": 8.2}
+	  },
+	  "humedad_relativa": {
+		"opt": {"min": 70, "max": 80},
+		"abs": {"min": 50, "max": 90}
+	  },
+	  "valores_npk": {
+		"N": {"min": 100, "max": 150},
+		"P": {"min": 50, "max": 75},
+		"K": {"min": 150, "max": 200}
+	  }
+	},
+	{
+	  "nombre": "banano",
+	  "nom_cientifico": "Musa sp.",
+	  "nom_comunes": ["Banano", "Plátano"],
+	  "ecocrop_code": 2483,
+	  "temp": {
+		"opt": {"min": 25, "max": 30},
+		"abs": {"min": 18, "max": 35}
+	  },
+	  "lluvia": {
+		"opt": {"min": 1200, "max": 2200},
+		"abs": {"min": 1000, "max": 3000}
+	  },
+	  "latitud": null,
+	  "altitud": {
+		"abs": {"min": null, "max": 1500}
+	  },
+	  "pH": {
+		"opt": {"min": 5.5, "max": 7},
+		"abs": {"min": 4.5, "max": 8}
+	  },
+	  "humedad_relativa": {
+		"opt": {"min": 75, "max": 90},
+		"abs": {"min": 60, "max": 95}
+	  },
+	  "valores_npk": {
+		"N": {"min": 200, "max": 400},
+		"P": {"min": 50, "max": 100},
+		"K": {"min": 300, "max": 600}
+	  }
+	},
+	{
+	  "nombre": "tomate",
+	  "nom_cientifico": "Solanum lycopersicum",
+	  "nom_comunes": ["Tomate"],
+	  "ecocrop_code": 1379,
+	  "temp": {
+		"opt": {"min": 18, "max": 24},
+		"abs": {"min": 10, "max": 30}
+	  },
+	  "lluvia": {
+		"opt": {"min": 600, "max": 800},
+		"abs": {"min": 400, "max": 1000}
+	  },
+	  "latitud": null,
+	  "altitud": {
+		"abs": {"min": null, "max": 2000}
+	  },
+	  "pH": {
+		"opt": {"min": 5.5, "max": 6.8},
+		"abs": {"min": 5, "max": 7.5}
+	  },
+	  "humedad_relativa": {
+		"opt": {"min": 60, "max": 70},
+		"abs": {"min": 50, "max": 85}
+	  },
+	  "valores_npk": {
+		"N": {"min": 100, "max": 200},
+		"P": {"min": 40, "max": 70},
+		"K": {"min": 150, "max": 250}
+	  }
+	},
+	{
+	  "nombre": "cebolla",
+	  "nom_cientifico": "Allium cepa",
+	  "nom_comunes": ["Cebolla"],
+	  "ecocrop_code": 364,
+	  "temp": {
+		"opt": {"min": 13, "max": 25},
+		"abs": {"min": 10, "max": 30}
+	  },
+	  "lluvia": {
+		"opt": {"min": 300, "max": 600},
+		"abs": {"min": 200, "max": 800}
+	  },
+	  "latitud": null,
+	  "altitud": {
+		"abs": {"min": null, "max": 2500}
+	  },
+	  "pH": {
+		"opt": {"min": 6, "max": 7.5},
+		"abs": {"min": 5.5, "max": 8}
+	  },
+	  "humedad_relativa": {
+		"opt": {"min": 55, "max": 70},
+		"abs": {"min": 50, "max": 85}
+	  },
+	  "valores_npk": {
+		"N": {"min": 120, "max": 180},
+		"P": {"min": 30, "max": 60},
+		"K": {"min": 90, "max": 150}
+	  }
+	},
+	{
+	  "nombre": "piña",
+	  "nom_cientifico": "Ananas comosus",
+	  "nom_comunes": ["Piña"],
+	  "ecocrop_code": 402,
+	  "temp": {
+		"opt": {"min": 23, "max": 30},
+		"abs": {"min": 18, "max": 36}
+	  },
+	  "lluvia": {
+		"opt": {"min": 1000, "max": 1500},
+		"abs": {"min": 800, "max": 2500}
+	  },
+	  "latitud": null,
+	  "altitud": {
+		"abs": {"min": null, "max": 1500}
+	  },
+	  "pH": {
+		"opt": {"min": 4.5, "max": 6},
+		"abs": {"min": 4, "max": 7}
+	  },
+	  "humedad_relativa": {
+		"opt": {"min": 70, "max": 90},
+		"abs": {"min": 60, "max": 95}
+	  },
+	  "valores_npk": {
+		"N": {"min": 200, "max": 300},
+		"P": {"min": 40, "max": 60},
+		"K": {"min": 250, "max": 350}
+	  }
+	},
+	{
+	  "nombre": "aguacate",
+	  "nom_cientifico": "Persea americana",
+	  "nom_comunes": ["Aguacate", "Palta"],
+	  "ecocrop_code": 1659,
+	  "temp": {
+		"opt": {"min": 16, "max": 26},
+		"abs": {"min": 10, "max": 30}
+	  },
+	  "lluvia": {
+		"opt": {"min": 1200, "max": 1500},
+		"abs": {"min": 800, "max": 2500}
+	  },
+	  "latitud": null,
+	  "altitud": {
+		"abs": {"min": null, "max": 2400}
+	  },
+	  "pH": {
+		"opt": {"min": 5.5, "max": 6.5},
+		"abs": {"min": 5, "max": 7.5}
+	  },
+	  "humedad_relativa": {
+		"opt": {"min": 70, "max": 80},
+		"abs": {"min": 60, "max": 90}
+	  },
+	  "valores_npk": {
+		"N": {"min": 150, "max": 250},
+		"P": {"min": 30, "max": 60},
+		"K": {"min": 200, "max": 300}
+	  }
+	},
+	  {
+		"nombre": "frambuesa",
+		"nom_cientifico": "Rubus idaeus",
+		"nom_comunes": ["Frambuesa"],
+		"ecocrop_code": 1877,
+		"temp": {
+		  "opt": {"min": 15, "max": 24},
+		  "abs": {"min": 5, "max": 28}
+		},
+		"lluvia": {
+		  "opt": {"min": 700, "max": 1200},
+		  "abs": {"min": 500, "max": 2000}
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": {"min": 600, "max": 2000}
+		},
+		"pH": {
+		  "opt": {"min": 5.5, "max": 6.5},
+		  "abs": {"min": 4.5, "max": 7}
+		},
+		"humedad_relativa": {
+		  "opt": {"min": 70, "max": 80},
+		  "abs": {"min": 60, "max": 90}
+		},
+		"valores_npk": {
+		  "N": {"min": 80, "max": 150},
+		  "P": {"min": 30, "max": 50},
+		  "K": {"min": 120, "max": 180}
+		}
+	  },
+	  {
+		"nombre": "brocoli",
+		"nom_cientifico": "Brassica oleracea var. italica",
+		"nom_comunes": ["Brócoli"],
+		"ecocrop_code": 556,
+		"temp": {
+		  "opt": {"min": 16, "max": 24},
+		  "abs": {"min": 10, "max": 27}
+		},
+		"lluvia": {
+		  "opt": {"min": 500, "max": 1000},
+		  "abs": {"min": 300, "max": 1500}
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": {"min": 800, "max": 2500}
+		},
+		"pH": {
+		  "opt": {"min": 6, "max": 7.5},
+		  "abs": {"min": 5.5, "max": 8}
+		},
+		"humedad_relativa": {
+		  "opt": {"min": 60, "max": 70},
+		  "abs": {"min": 50, "max": 80}
+		},
+		"valores_npk": {
+		  "N": {"min": 120, "max": 180},
+		  "P": {"min": 50, "max": 80},
+		  "K": {"min": 150, "max": 200}
+		}
+	  },
+	  {
+		"nombre": "manzana",
+		"nom_cientifico": "Malus domestica",
+		"nom_comunes": ["Manzana"],
+		"ecocrop_code": 1407,
+		"temp": {
+		  "opt": {"min": 16, "max": 24},
+		  "abs": {"min": -5, "max": 30}
+		},
+		"lluvia": {
+		  "opt": {"min": 600, "max": 1000},
+		  "abs": {"min": 500, "max": 1500}
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": {"min": 800, "max": 2500}
+		},
+		"pH": {
+		  "opt": {"min": 5.5, "max": 7},
+		  "abs": {"min": 5, "max": 8}
+		},
+		"humedad_relativa": {
+		  "opt": {"min": 60, "max": 75},
+		  "abs": {"min": 50, "max": 90}
+		},
+		"valores_npk": {
+		  "N": {"min": 80, "max": 150},
+		  "P": {"min": 30, "max": 60},
+		  "K": {"min": 150, "max": 200}
+		}
+	  },
+	  {
+		"nombre": "pera",
+		"nom_cientifico": "Pyrus communis",
+		"nom_comunes": ["Pera"],
+		"ecocrop_code": 1832,
+		"temp": {
+		  "opt": {"min": 18, "max": 24},
+		  "abs": {"min": -5, "max": 30}
+		},
+		"lluvia": {
+		  "opt": {"min": 500, "max": 1000},
+		  "abs": {"min": 400, "max": 1500}
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": {"min": 800, "max": 2500}
+		},
+		"pH": {
+		  "opt": {"min": 5.5, "max": 7},
+		  "abs": {"min": 5, "max": 8}
+		},
+		"humedad_relativa": {
+		  "opt": {"min": 60, "max": 75},
+		  "abs": {"min": 50, "max": 90}
+		},
+		"valores_npk": {
+		  "N": {"min": 70, "max": 120},
+		  "P": {"min": 25, "max": 50},
+		  "K": {"min": 100, "max": 150}
+		}
+	  },
+	  {
+		"nombre": "cacao",
+		"nom_cientifico": "Theobroma cacao",
+		"nom_comunes": ["Cacao"],
+		"ecocrop_code": 2074,
+		"temp": {
+		  "opt": {"min": 24, "max": 28},
+		  "abs": {"min": 18, "max": 35}
+		},
+		"lluvia": {
+		  "opt": {"min": 1500, "max": 2000},
+		  "abs": {"min": 1200, "max": 3000}
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": {"min": 0, "max": 1200}
+		},
+		"pH": {
+		  "opt": {"min": 6, "max": 7.5},
+		  "abs": {"min": 5, "max": 8}
+		},
+		"humedad_relativa": {
+		  "opt": {"min": 75, "max": 90},
+		  "abs": {"min": 60, "max": 95}
+		},
+		"valores_npk": {
+		  "N": {"min": 180, "max": 300},
+		  "P": {"min": 50, "max": 100},
+		  "K": {"min": 200, "max": 400}
+		}
+	  },
+	  {
+		"nombre": "cafe",
+		"nom_cientifico": "Coffea arabica",
+		"nom_comunes": ["Café"],
+		"ecocrop_code": 749,
+		"temp": {
+		  "opt": {"min": 18, "max": 24},
+		  "abs": {"min": 12, "max": 30}
+		},
+		"lluvia": {
+		  "opt": {"min": 1200, "max": 2000},
+		  "abs": {"min": 1000, "max": 2500}
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": {"min": 600, "max": 2000}
+		},
+		"pH": {
+		  "opt": {"min": 5.5, "max": 6.5},
+		  "abs": {"min": 5, "max": 7}
+		},
+		"humedad_relativa": {
+		  "opt": {"min": 70, "max": 85},
+		  "abs": {"min": 60, "max": 90}
+		},
+		"valores_npk": {
+		  "N": {"min": 200, "max": 300},
+		  "P": {"min": 40, "max": 80},
+		  "K": {"min": 200, "max": 400}
+		}
+	},
+	{
+		"nombre": "papa",
+		"nom_cientifico": "Solanum tuberosum",
+		"nom_comunes": ["Papa", "Patata"],
+		"ecocrop_code": 1971,
+		"temp": {
+		  "opt": { "min": 15, "max": 20 },
+		  "abs": { "min": 8, "max": 25 }
+		},
+		"lluvia": {
+		  "opt": { "min": 800, "max": 1200 },
+		  "abs": { "min": 500, "max": 1700 }
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": { "min": 800, "max": 3000 }
+		},
+		"pH": {
+		  "opt": { "min": 5.5, "max": 6.5 },
+		  "abs": { "min": 4.8, "max": 7.5 }
+		},
+		"humedad_relativa": {
+		  "opt": { "min": 70, "max": 85 }
+		},
+		"valores_npk": {
+		  "N": { "min": 150, "max": 200 },
+		  "P": { "min": 60, "max": 90 },
+		  "K": { "min": 200, "max": 250 }
+		}
+	  },
+	  {
+		"nombre": "platano",
+		"nom_cientifico": "Musa paradisiaca",
+		"nom_comunes": ["Plátano"],
+		"ecocrop_code": 1503,
+		"temp": {
+		  "opt": { "min": 25, "max": 30 },
+		  "abs": { "min": 18, "max": 35 }
+		},
+		"lluvia": {
+		  "opt": { "min": 1500, "max": 2000 },
+		  "abs": { "min": 1000, "max": 3000 }
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": { "min": 0, "max": 1000 }
+		},
+		"pH": {
+		  "opt": { "min": 5.5, "max": 7 },
+		  "abs": { "min": 4.5, "max": 8 }
+		},
+		"humedad_relativa": {
+		  "opt": { "min": 75, "max": 90 }
+		},
+		"valores_npk": {
+		  "N": { "min": 200, "max": 400 },
+		  "P": { "min": 40, "max": 60 },
+		  "K": { "min": 300, "max": 500 }
+		}
+	  },
+	  {
+		"nombre": "yuca",
+		"nom_cientifico": "Manihot esculenta",
+		"nom_comunes": ["Yuca", "Mandioca", "Cassava"],
+		"ecocrop_code": 1420,
+		"temp": {
+		  "opt": { "min": 25, "max": 29 },
+		  "abs": { "min": 18, "max": 35 }
+		},
+		"lluvia": {
+		  "opt": { "min": 1000, "max": 1500 },
+		  "abs": { "min": 600, "max": 2500 }
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": { "min": 0, "max": 1800 }
+		},
+		"pH": {
+		  "opt": { "min": 5.5, "max": 6.5 },
+		  "abs": { "min": 4.5, "max": 8 }
+		},
+		"humedad_relativa": {
+		  "opt": { "min": 60, "max": 75 }
+		},
+		"valores_npk": {
+		  "N": { "min": 80, "max": 120 },
+		  "P": { "min": 30, "max": 50 },
+		  "K": { "min": 100, "max": 150 }
+		}
+	  },
+	  {
+		"nombre": "limon",
+		"nom_cientifico": "Citrus limon",
+		"nom_comunes": ["Limón"],
+		"ecocrop_code": 714,
+		"temp": {
+		  "opt": { "min": 23, "max": 30 },
+		  "abs": { "min": 10, "max": 40 }
+		},
+		"lluvia": {
+		  "opt": { "min": 1000, "max": 1200 },
+		  "abs": { "min": 800, "max": 2500 }
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": { "min": 0, "max": 1500 }
+		},
+		"pH": {
+		  "opt": { "min": 5.5, "max": 6.5 },
+		  "abs": { "min": 4.5, "max": 7.5 }
+		},
+		"humedad_relativa": {
+		  "opt": { "min": 60, "max": 85 }
+		},
+		"valores_npk": {
+		  "N": { "min": 150, "max": 250 },
+		  "P": { "min": 50, "max": 80 },
+		  "K": { "min": 200, "max": 300 }
+		}
+	  },
+	  {
+		"nombre": "guanabana",
+		"nom_cientifico": "Annona muricata",
+		"nom_comunes": ["Guanábana"],
+		"ecocrop_code": 411,
+		"temp": {
+		  "opt": { "min": 25, "max": 30 },
+		  "abs": { "min": 20, "max": 35 }
+		},
+		"lluvia": {
+		  "opt": { "min": 1000, "max": 1500 },
+		  "abs": { "min": 800, "max": 2500 }
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": { "min": 0, "max": 1200 }
+		},
+		"pH": {
+		  "opt": { "min": 5, "max": 6.5 },
+		  "abs": { "min": 4.5, "max": 7.5 }
+		},
+		"humedad_relativa": {
+		  "opt": { "min": 70, "max": 85 }
+		},
+		"valores_npk": {
+		  "N": { "min": 150, "max": 200 },
+		  "P": { "min": 40, "max": 60 },
+		  "K": { "min": 200, "max": 300 }
+		}
+	  },
+	  {
+		"nombre": "coliflor",
+		"nom_cientifico": "Brassica oleracea var. botrytis",
+		"nom_comunes": ["Coliflor"],
+		"ecocrop_code": 553,
+		"temp": {
+		  "opt": { "min": 15, "max": 18 },
+		  "abs": { "min": 10, "max": 24 }
+		},
+		"lluvia": {
+		  "opt": { "min": 600, "max": 800 },
+		  "abs": { "min": 400, "max": 1000 }
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": { "min": 0, "max": 2000 }
+		},
+		"pH": {
+		  "opt": { "min": 6, "max": 7 },
+		  "abs": { "min": 5.5, "max": 7.5 }
+		},
+		"humedad_relativa": {
+		  "opt": { "min": 65, "max": 80 }
+		},
+		"valores_npk": {
+		  "N": { "min": 150, "max": 200 },
+		  "P": { "min": 40, "max": 60 },
+		  "K": { "min": 150, "max": 200 }
+		}
+	  },
+	  {
+		"nombre": "arroz",
+		"nom_cientifico": "Oryza sativa",
+		"nom_comunes": ["Arroz"],
+		"ecocrop_code": 1574,
+		"temp": {
+		  "opt": { "min": 25, "max": 30 },
+		  "abs": { "min": 20, "max": 35 }
+		},
+		"lluvia": {
+		  "opt": { "min": 1200, "max": 1500 },
+		  "abs": { "min": 1000, "max": 2000 }
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": { "min": 0, "max": 800 }
+		},
+		"pH": {
+		  "opt": { "min": 5.5, "max": 6.5 },
+		  "abs": { "min": 4.5, "max": 7.5 }
+		},
+		"humedad_relativa": {
+		  "opt": { "min": 70, "max": 90 }
+		},
+		"valores_npk": {
+		  "N": { "min": 150, "max": 250 },
+		  "P": { "min": 50, "max": 70 },
+		  "K": { "min": 100, "max": 150 }
+		}
+	  },
+	  {
+		"nombre": "lentejas",
+		"nom_cientifico": "Lens culinaris",
+		"nom_comunes": ["Lentejas"],
+		"ecocrop_code": 7209,
+		"temp": {
+		  "opt": { "min": 18, "max": 24 },
+		  "abs": { "min": 10, "max": 28 }
+		},
+		"lluvia": {
+		  "opt": { "min": 400, "max": 600 },
+		  "abs": { "min": 300, "max": 750 }
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": { "min": 0, "max": 1800 }
+		},
+		"pH": {
+		  "opt": { "min": 6, "max": 7.5 },
+		  "abs": { "min": 5.5, "max": 8 }
+		},
+		"humedad_relativa": {
+		  "opt": { "min": 60, "max": 75 }
+		},
+		"valores_npk": {
+		  "N": { "min": 50, "max": 100 },
+		  "P": { "min": 30, "max": 60 },
+		  "K": { "min": 50, "max": 80 }
+		}
+	  },
+	  {
+		"nombre": "trigo",
+		"nom_cientifico": "Triticum aestivum",
+		"nom_comunes": ["Trigo"],
+		"ecocrop_code": 2114,
+		"temp": {
+		  "opt": { "min": 15, "max": 24 },
+		  "abs": { "min": 5, "max": 30 }
+		},
+		"lluvia": {
+		  "opt": { "min": 600, "max": 1200 },
+		  "abs": { "min": 400, "max": 1800 }
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": { "min": 200, "max": 3000 }
+		},
+		"pH": {
+		  "opt": { "min": 6, "max": 7.5 },
+		  "abs": { "min": 5.5, "max": 8 }
+		},
+		"humedad_relativa": {
+		  "opt": { "min": 60, "max": 80 }
+		},
+		"valores_npk": {
+		  "N": { "min": 120, "max": 180 },
+		  "P": { "min": 50, "max": 80 },
+		  "K": { "min": 100, "max": 150 }
+		}
+	  },
+	  {
+		"nombre": "sandia",
+		"nom_cientifico": "Citrullus lanatus",
+		"nom_comunes": ["Sandía", "Patilla"],
+		"ecocrop_code": 708,
+		"temp": {
+		  "opt": { "min": 22, "max": 30 },
+		  "abs": { "min": 18, "max": 35 }
+		},
+		"lluvia": {
+		  "opt": { "min": 400, "max": 600 },
+		  "abs": { "min": 200, "max": 800 }
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": { "min": 0, "max": 1200 }
+		},
+		"pH": {
+		  "opt": { "min": 6, "max": 6.8 },
+		  "abs": { "min": 5, "max": 7.5 }
+		},
+		"humedad_relativa": {
+		  "opt": { "min": 50, "max": 70 }
+		},
+		"valores_npk": {
+		  "N": { "min": 100, "max": 150 },
+		  "P": { "min": 40, "max": 60 },
+		  "K": { "min": 150, "max": 200 }
+		}
+	  },
+	  {
+		"nombre": "naranja",
+		"nom_cientifico": "Citrus sinensis",
+		"nom_comunes": ["Naranja"],
+		"ecocrop_code": 720,
+		"temp": {
+		  "opt": { "min": 20, "max": 32 },
+		  "abs": { "min": 15, "max": 40 }
+		},
+		"lluvia": {
+		  "opt": { "min": 1000, "max": 1200 },
+		  "abs": { "min": 800, "max": 2000 }
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": { "min": 0, "max": 1500 }
+		},
+		"pH": {
+		  "opt": { "min": 5.5, "max": 6.5 },
+		  "abs": { "min": 4.5, "max": 7.5 }
+		},
+		"humedad_relativa": {
+		  "opt": { "min": 60, "max": 80 }
+		},
+		"valores_npk": {
+		  "N": { "min": 120, "max": 200 },
+		  "P": { "min": 50, "max": 70 },
+		  "K": { "min": 150, "max": 250 }
+		}
+	  },
+	  {
+		"nombre": "zanahoria",
+		"nom_cientifico": "Daucus carota",
+		"nom_comunes": ["Zanahoria"],
+		"ecocrop_code": 871,
+		"temp": {
+		  "opt": { "min": 16, "max": 21 },
+		  "abs": { "min": 10, "max": 24 }
+		},
+		"lluvia": {
+		  "opt": { "min": 600, "max": 800 },
+		  "abs": { "min": 400, "max": 1000 }
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": { "min": 0, "max": 2500 }
+		},
+		"pH": {
+		  "opt": { "min": 6, "max": 6.8 },
+		  "abs": { "min": 5.5, "max": 7.5 }
+		},
+		"humedad_relativa": {
+		  "opt": { "min": 60, "max": 80 }
+		},
+		"valores_npk": {
+		  "N": { "min": 80, "max": 120 },
+		  "P": { "min": 40, "max": 60 },
+		  "K": { "min": 100, "max": 150 }
+		}
+	  },
+	  {
+		"nombre": "arveja",
+		"nom_cientifico": "Pisum sativum",
+		"nom_comunes": ["Arveja", "Guisante"],
+		"ecocrop_code": 1721,
+		"temp": {
+		  "opt": { "min": 14, "max": 22 },
+		  "abs": { "min": 10, "max": 28 }
+		},
+		"lluvia": {
+		  "opt": { "min": 600, "max": 900 },
+		  "abs": { "min": 400, "max": 1200 }
+		},
+        "latitud": null,
+		"altitud": {
+		  "abs": { "min": 800, "max": 2500 }
+		},
+		"pH": {
+		  "opt": { "min": 6, "max": 7.5 },
+		  "abs": { "min": 5.5, "max": 8 }
+		},
+		"humedad_relativa": {
+		  "opt": { "min": 60, "max": 75 }
+		},
+		"valores_npk": {
+		  "N": { "min": 50, "max": 100 },
+		  "P": { "min": 30, "max": 50 },
+		  "K": { "min": 70, "max": 120 }
+		}
+	  }
+]  
